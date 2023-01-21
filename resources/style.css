@@ -1,5 +1,246 @@
+*{
+    --blueblack: #243345;
+    --blueCTA: #5563CE;
+    --greyCard: #E6EBED;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
 h1{
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
+    color: var(--blueblack);
+    font-size: 4rem;
+}
+
+h3{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--blueCTA);
+}
+
+h4{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
     color: white;
+}
+
+
+header { 
+    background-image: url("./images/alessio-soggetti-GYr9A2CPMhY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroTextContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    max-width: 14rem;
+}
+
+.heroTextContent h1{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.heroTextContent p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: var(--blueblack);
+    font-size: 1.45rem;
+    margin-top: 0.2rem;
+}
+
+.joinUs{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--blueCTA);
+    color: white;
+    border-radius: 2rem;
+    border-style: none;
+    padding: 1rem;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+/* Mission section */
+
+.Mission{
+    text-align: center;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 4rem;
+}
+
+.Mission p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    color: var(--blueblack);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.Mission span{
+    font-family: 'Outfit', sans-serif;
+    color: var(--blueblack);
+    font-weight: 400;
+    font-size: 1rem;    
+}
+
+.iconRun{
+    margin-top: 1rem;
+}
+
+/* Running lists */
+
+
+
+.runLogs{
+    background-image: url("./images/background_body.png");
+    background-position: center;
+    padding-bottom: 3rem;
+}
+
+.runLogs h3{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+
+.cardList{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--greyCard);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.date{
+    font-weight: 400;
+    border: 2px solid var(--blueCTA);
+    padding: 0.25rem;
+    border-radius: 0.3rem;
+    color: var(--blueCTA);
+}
+.card p{
+    display: inline-block;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.runTitle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--blueCTA);
+    padding-top: 0.2rem;
+}
+
+#FiveKRun{
+    
+}
+
+#TenkRun{
+}
+
+
+.reserve{
+    width: 100%;
+    color: var(--blueCTA);
+    border-style: none;
+    border: 2px solid var(--blueCTA);
+    background-color: var(--greyCard);
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
+
+.organizers{
+    background-color: var(--blueCTA);
+}
+
+.organizers h3{
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 70%;
+    gap: 2rem;
+    padding-bottom: 3%;
+}
+
+.teamMate{
+    background-image: url("./images/andreaBW.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    flex-grow: 1;
+}
+.description{
+    background-color: var(--blueblack);
+    opacity: 70%;
+    text-align: center;
+    padding: 0px 1.5rem;
+    border-radius: 1rem;
+}
+
+.description p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 1.12rem;
+}
+
+footer{
+    background-image: url('./images/footerback.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vw;
+    padding-left: 15%;
+    padding-top: 40px;
+}
+
+footer p{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin: 0px;
 }
