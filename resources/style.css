@@ -216,7 +216,7 @@ header {
 }
 .description{
     background-color: var(--blueblack);
-    opacity: 70%;
+    opacity: 85%;
     text-align: center;
     padding: 0px 1.5rem;
     border-radius: 1rem;
